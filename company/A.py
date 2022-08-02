@@ -1,20 +1,20 @@
-import sys
-import io
+# import sys
+# import io
 
-INPUT = """\
-10 10 9 
-2 2 4 
-2 2 3 
-2 2 5 
-2 2 2 
-2 2 6 
-2 2 1 
-2 2 7 
-2 2 0 
-2 2 8 
-"""
+# INPUT = """\
+# 10 10 9 
+# 2 2 4 
+# 2 2 3 
+# 2 2 5 
+# 2 2 2 
+# 2 2 6 
+# 2 2 1 
+# 2 2 7 
+# 2 2 0 
+# 2 2 8 
+# """
 
-sys.stdin = io.StringIO(INPUT)
+# sys.stdin = io.StringIO(INPUT)
 
 f_h, f_w, n = [int(v) for v in input().split()]
 
